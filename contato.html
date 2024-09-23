@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><a href="index.html">Queimadas</a></div>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="causas.html">Causas</a></li>
+                <li><a href="consequencias.html">Consequências</a></li>
+                <li><a href="prevencao.html">Prevenção</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contato.html" class="active">Contato</a></li>
+            </ul>
+            <div class="mobile-menu" aria-label="Menu Mobile">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contato</h1>
+        <form id="contact-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Queimadas. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
